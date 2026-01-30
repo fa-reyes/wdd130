@@ -109,15 +109,12 @@ nav a {
     right: 20px;
     padding: 16px;
     background-color: rgba(234, 231, 220, 0.9);
-    float: right;
-    display: flex;
-    align-items: center;
-    gap: 16px;
 }
 
 .hero article img {
+    float: right;
     width: 150px;
-    flex-shrink: 0;
+    margin-left: 16px;
 }
 
 .history {
