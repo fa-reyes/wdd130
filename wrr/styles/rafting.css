@@ -1,6 +1,5 @@
 :root {
-    --primary-color: #3A7CA5;
-    --secondary-color: #2F5D50;
+    --primary-color: #2F5D50;
     --accent1-color: #EAE7DC;
     --accent2-color: #6B4F4F;
     --bg-soft: #A3C9A8;
@@ -43,7 +42,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 p {
@@ -110,6 +109,7 @@ nav a {
     right: 20px;
     padding: 16px;
     background-color: rgba(234, 231, 220, 0.9);
+    float: right;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -133,7 +133,7 @@ nav a {
 
 section h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     background-color: var(--bg-soft);
     padding: 8px;
     margin-bottom: 8px;
