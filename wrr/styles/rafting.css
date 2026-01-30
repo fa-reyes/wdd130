@@ -127,8 +127,13 @@ nav a {
 
 .history-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
     gap: 16px;
+    align-items: center;
+}
+
+.history-content img {
+    width: 180px;
 }
 
 section h2 {
@@ -163,18 +168,28 @@ section h2 {
 }
 
 footer {
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    margin: auto;
+}
+
+footer p {
+    grid-column: 2;
+    text-align: center;
+}
+
+footer .socialmedia {
+    grid-column: 3;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
 }
 
 .socialmedia a {
     text-decoration: none;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 8px;
 }
 
 .socialmedia img {
