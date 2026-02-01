@@ -283,6 +283,27 @@ fieldset legend {
     width: 100%;
 }
 
+.employee-section {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.employee-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .profile-container {
     display: flex;
     justify-content: space-around;
@@ -297,6 +318,8 @@ fieldset legend {
 .profile-container img {
     width: 100%;
     max-width: 200px;
-    height: auto;
+    height: 200px;
     background-color: #eee;
+    object-fit: cover;
+    border-radius: 8px;
 }
