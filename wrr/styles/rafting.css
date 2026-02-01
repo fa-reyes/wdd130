@@ -249,9 +249,19 @@ fieldset legend {
     color: var(--primary-color);
 }
 
-fieldset label {
-    display: block;
-    margin-bottom: 5px;
+.radio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-input,
+.radio-item label {
+    cursor: pointer;
+}
+
+.radio-input {
+    margin-right: 10px;
 }
 
 .newsletter-option {
